@@ -30,7 +30,6 @@ class zabbix(MonitoringApp):
     def get_list_of_triggers(self):
         return user_defined_triggers(self.api_url)
 
-
     def get_triggers(self):
         return ["192.168.1.2 cpu_usage_thereshold==80","192.168.1.4 ram_usage_thereshold==95"]
 
@@ -46,7 +45,6 @@ class promoteous(MonitoringApp):
     
     def get_list_of_triggers(self):
         return user_defined_triggers(self.api_url)
-
 
     def get_triggers(self):
         return ["192.168.1.2 cpu_usage_thereshold==80","192.168.1.4 ram_usage_thereshold==95"]
@@ -64,7 +62,6 @@ class sentry(MonitoringApp):
     
     def get_list_of_triggers(self):
         return user_defined_triggers(self.api_url)
-
 
     def get_triggers(self):
         return ["192.168.1.2 cpu_usage_thereshold==80","192.168.1.4 ram_usage_thereshold==95"]
