@@ -50,7 +50,6 @@ class promoteous(MonitoringApp):
         return ["192.168.1.2 cpu_usage_thereshold==80","192.168.1.4 ram_usage_thereshold==95"]
 
     
-
 class sentry(MonitoringApp):
     def __init__(self, name, api_url, api_token):
         self.name = name
