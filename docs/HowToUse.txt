@@ -1,0 +1,5 @@
+## Documentation ##
+
+This is only an Example file.
+
+Here we Should write/Generate Documentation of our project.
