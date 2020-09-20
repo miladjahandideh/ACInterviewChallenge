@@ -6,7 +6,7 @@ This repo is prepared for AC Interview Challenge.
 
 ## How it works
 
-* It COLLECTS triggers from different Monitoring Systems in define INTERVALS. It can collect them by polling or they can push it into our system. It perpetually checks if TRIGGERS match. If yes then runs defined ACTION.
+* It COLLECTS triggers from different Monitoring Systems in defined INTERVALS. It can collect them by polling or they can push it into our system. It perpetually checks if TRIGGERS match. If yes then runs defined ACTION.
 
 ## How to install 
 
